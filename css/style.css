@@ -12,10 +12,15 @@ body {
     padding: 0;
 }
 
+.corpo {
+padding-bottom: 10px;
+}
 /* Estilos do Cabeçalho */
 .topo {
     background-color: #000000;
     padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
 }
 
 .topo a {
@@ -50,6 +55,10 @@ body {
 .destaque {
     background-color: #000000;
     color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
+    font-size: 30px;
 }
 
 /* Estilos da Grade */
@@ -117,11 +126,19 @@ body {
 .rodape {
     background-color: #000000;
     color: #FFFFFF;
+    border-radius: 50px;
+    margin: 5px;
 }
 
 .rotulo {
     display: block;
     margin-bottom: 20px;
+}
+
+.tituloG {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
 }
 
 .titulo {
