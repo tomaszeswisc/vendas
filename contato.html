@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+        <head>
+            <!--Informações para o Navegador-->
+            <!--Usuário não tem acesso a essas informações-->
+            <meta charset="UTF-8">
+            <!--Passa informações ao Navegador 1 - para não ficar dando zoon, 2 - largura será a mesma do dispositivo, 3 - Já inicia visualização em 100%  -->
+            <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+            <!--Titulo do Site-->
+            <title>Vendas Livres</title>
+            <!--Icono para Titulo do Site-->
+            <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+            <!--<link> cria um vinculo com um arquivo através do atributo href, e o atributo rel é o tripo de relação do arquivo-->
+            <link href="css/style.css" rel="stylesheet">
+            <!--<link> cria um vinculo com um arquivo através do atributo src-->
+            <script src="js/script.js"></script>
+        </head>
+        
+        <!--Area do Site-->
+    <body>
+
+        <!--Cria o Cabeçalho do Site-->
+        <header class="topo">
+    
+            <!--Cria o Menu de Navegção-->
+            <nav class="navegacao">
+
+                <!--Logotipo do Site-->
+                <a class="logo" href="index.html">
+                    <img src="img/logo.png" alt="logo" height="100" width="128">
+                </a>
+                
+                <!--Cria uma Lista-->            
+                <ul class="menu">
+                    <!--Cria os elementos da lista-->
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="carrinho.html">Carrinho</a></li>
+                </ul>
+    
+            </nav>
+    
+        </header>
+        
+        <!--Corpo do Site-->    
+        
+
+    
+    <main>
+        <!-- <h1> - Titulo, <p> - parágrafo--> 
+        <h1 class="titulo" >Contato</h1>
+        <p class="texto" >Os campos com * são de preenchimento obrigatório!</p>
+        
+        <!--Corpo do formulario-->
+        <form class="contato">
+            <!--Campo Nome-->
+            <label class="rotulo">
+                Nome*
+                <input type="text" class="campo" required>
+            </label>
+            <!--Campo Email-->
+            <label class="rotulo">
+                E-mail*
+                <input type="email" class="campo" required>
+            </label>
+            <!--Campo Assunto-->
+            <label class="rotulo">
+                Assunto
+                <select class="campo">
+                    <option>Dúvidas</option>
+                    <option>Sugestões</option>
+                    <option>Críticas</option>
+                </select>
+            </label class="rotulo">
+            <!--Campo Mensagem-->
+            <label class="rotulo">
+                Mensagem*
+                <textarea class="campo" required></textarea>
+            </label>
+            <!--Botão Enviar-->
+            <button>Enviar</button>
+        </form>
+
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31876.942702809178!2d-41.7108632!3d-2.9257019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ec3b2a815e2759%3A0x7df0df755be3ebde!2sPar%C3%B3quia%20Santa%20L%C3%BAzia!5e0!3m2!1spt-BR!2sbr!4v1706845164517!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    </main>
+
+    <!--Rodape do Site-->
+    <footer class="rodape">
+        <p><strong>Copyright © 2024 - Hilton Elias</strong></p>
+    </footer>
+
+</body>
+</html>
